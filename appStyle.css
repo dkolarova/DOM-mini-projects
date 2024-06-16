@@ -7,6 +7,9 @@ body{
   background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3); 
   background: linear-gradient(to right, #faaca8, #ddd6f3); 
   font-family: 'Roboto', sans-serif;
+  margin: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 
 }
 
@@ -83,12 +86,5 @@ p{
   opacity: 0.7;
 }
 
-/* ----------------- Mobile - Version ------------------ */
 
-@media only screen 
-and (max-width: 609px){
- body{
-  padding-left: 5%;
-  padding-right: 5%;
- }
-}
+
